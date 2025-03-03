@@ -13,7 +13,6 @@ ME_URL = reverse('user:me')
 User = get_user_model() 
 
 def create_user(**params):
-    print("Params received in create_user:", params) 
     return get_user_model().objects.create_user(**params)
 
 class PublicUserApiTests(TestCase):
