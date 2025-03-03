@@ -94,7 +94,7 @@ This API was developed using Test-Driven Development (TDD) principles with Djang
 You can run the project's tests using Django's built-in testing framework to verify the integrity of the codebase:
 
 ``` bash
-python api/manage.py test
+python api/manage.py test tests
 ```
 📌 Make sure you are inside the project root (anime-tracker/) before running this command.
 
