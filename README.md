@@ -53,21 +53,21 @@ Your API will be available at: http://127.0.0.1:8000/ 🎉
 
 ## 📌 API Endpoints
 ### 📚 API Endpoints
-User Authentication
-POST /api/user/create/ - Create a new user.
-POST /api/user/token/ - Generate an authentication token.
-### Anime Management
-GET /api/anime/animes/ - Get a list of all animes (with filters for genres and watch status).
-POST /api/anime/animes/ - Add a new anime to your collection.
-GET /api/anime/animes/{anime_id}/ - Retrieve details for a specific anime.
-PATCH /api/anime/animes/{anime_id}/ - Update an anime's details.
-DELETE /api/anime/animes/{anime_id}/ - Delete a specific anime.
-### Watch Status Management
-GET /api/anime/watch_status/ - Get all watch statuses.
-POST /api/anime/watch_status/ - Add a new watch status.
-### Genre Management
-GET /api/anime/genres/ - Get a list of all genres.
-POST /api/anime/genres/ - Add a new genre.
+#### User Authentication
+- POST /api/user/create/ - Create a new user.
+- POST /api/user/token/ - Generate an authentication token.
+#### Anime Management
+- GET /api/anime/animes/ - Get a list of all animes (with filters for genres and watch status).
+- POST /api/anime/animes/ - Add a new anime to your collection.
+- GET /api/anime/animes/{anime_id}/ - Retrieve details for a specific anime.
+- PATCH /api/anime/animes/{anime_id}/ - Update an anime's details.
+- DELETE /api/anime/animes/{anime_id}/ - Delete a specific anime.
+#### Watch Status Management
+- GET /api/anime/watch_status/ - Get all watch statuses.
+- POST /api/anime/watch_status/ - Add a new watch status.
+#### Genre Management
+- GET /api/anime/genres/ - Get a list of all genres.
+- POST /api/anime/genres/ - Add a new genre.
 
 ---
 
